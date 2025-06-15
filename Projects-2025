@@ -1,15 +1,26 @@
-# dishant-s-slash
-🧮 Python Calculator App (Tkinter GUI) This project is a simple yet functional calculator application that I developed using Python and the Tkinter library for the graphical user interface (GUI). I designed and implemented a responsive interface with interactive buttons to perform basic arithmetic operations,
+# 🚀 Projects - 2025
 
-📌 FEATURES
+A collection of personal and academic projects developed in 2025 using Python, web technologies, and data science tools. This repository showcases hands-on learning and development in various domains like GUI apps, automation, AI, and more.
 
-Easy-to-use calculator with a simple design
+---
 
-Buttons for numbers and basic operations: addition, subtraction, multiplication, and division
+## 📁 Projects
 
-Shows results instantly as you type
+### 1. 🧮 Python Calculator App (Tkinter GUI)
+A basic calculator built using Python and Tkinter with a simple and user-friendly interface. Supports addition, subtraction, multiplication, and division.  
+🔗 [View Repository](link-to-your-repo)
 
-Handles errors like division by zero
+---
 
-Works on any computer with Python installed
+## 🛠️ Technologies Used
+
+- Python  
+- Tkinter   
+- Git & GitHub  
+
+---
+
+## 📌 About Me
+
+I’m a student passionate about building practical projects in Python, data science, and web development. This repository is a showcase of my learning journey in 2025.
 
