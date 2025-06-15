@@ -1,0 +1,52 @@
+from tkinter import *
+from tkinter import messagebox
+
+a = Tk()
+a.title('College Admission Registration Form')
+a.geometry('1280x720')
+
+n = Label(a, text='Enter Student Name:', bg='yellow', fg='red')
+n.grid(row=0, column=0, padx=10, pady=10)
+e1 = Entry(a)
+e1.grid(row=0, column=1, padx=10, pady=10)
+
+b = Label(a, text='Select Your Branch:')
+b.grid(row=1, column=0, padx=10, pady=10)
+branch = IntVar()
+rb = Radiobutton(a, text='Computer Science', variable=branch, value=1)
+rb.grid(row=1, column=1)
+rb1 = Radiobutton(a, text='Information Technology', variable=branch, value=2)
+rb1.grid(row=1, column=2)
+
+b_games = Label(a, text='Select Favourite Games:')
+b_games.grid(row=2, column=0, padx=10, pady=10)
+game_cricket = IntVar()
+game_football = IntVar()
+game_badminton = IntVar()
+
+cb_cricket = Checkbutton(a, text='Cricket', variable=game_cricket)
+cb_cricket.grid(row=2, column=1)
+cb_football = Checkbutton(a, text='Football', variable=game_football)
+cb_football.grid(row=2, column=2)
+cb_badminton = Checkbutton(a, text='Badminton', variable=game_badminton)
+cb_badminton.grid(row=2, column=3)
+
+def fun():
+    name = e1.get()
+    selected_branch = 'Computer Science' if branch.get() == 1 else 'Information Technology'
+    games = []
+    if game_cricket.get():
+        games.append("Cricket")
+    if game_football.get():
+        games.append("Football")
+    if game_badminton.get():
+        games.append("Badminton")
+    games_selected = ", ".join(games) if games else "None"
+    
+    info = f"Name: {name}\nBranch: {selected_branch}\nGames: {games_selected}"
+    messagebox.showinfo('Submitted Successfully', info)
+
+bu = Button(a, text='Submit', command=fun)
+bu.grid(row=3, column=1, pady=20)
+
+a.mainloop()
