@@ -9,7 +9,7 @@ A collection of personal and academic projects developed in 2025 using Python, w
 ### 1. 🧮 Python Calculator App (Tkinter GUI)
 A basic calculator built using Python and Tkinter with a simple and user-friendly interface. Supports addition, subtraction, multiplication, and division.  
 🔗 [Calculator](https://github.com/dishantsethi09/dishant-s-slash/blob/main/Calculator)
-🔗 [College Admission Form]((https://github.com/dishantsethi09/dishant-s-slash/blob/main/College%20Admission%20Form))
+🔗 [College Admission Form](https://github.com/dishantsethi09/dishant-s-slash/blob/main/College%20Admission%20Form)
 
 ---
 
